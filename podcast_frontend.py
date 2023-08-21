@@ -39,7 +39,8 @@ def main():
 
         # Display the podcast guest and their details in a side-by-side layout
         # col3, col4 = st.columns([3, 7])
-        col3 = st.columns([3, 7])
+        # col3 = st.columns([3, 7])
+        col3 = st.columns([3])
 
         with col3:
             st.subheader("Podcast Guest")
@@ -89,7 +90,8 @@ def main():
 
         # Display the podcast guest and their details in a side-by-side layout
         # col3, col4 = st.columns([3, 7])
-        col3 = st.columns([3, 7])
+        # col3 = st.columns([3, 7])
+        col3 = st.columns([3])
 
         with col3:
             st.subheader("Podcast Guest")
